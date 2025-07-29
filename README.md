@@ -53,7 +53,7 @@ A simple JavaScript web app that allows users to search for drinks from the [The
 ## 🚀 Live Preview
 
 🔗 **Live Site:**  
-https://tawhidul-33.github.io/Drink-Search-project-With-API/
+[https://tawhidul-33.github.io/Drink-Search-project-With-API/](https://tawhidul-33.github.io/Drink-Search-project-With-API/)
 
 
 ---
