@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- css connect -->
+    <link rel="stylesheet" href="projectA.css">
+    <!-- bootstrap cdn for css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+
+    <title>Drink Project</title>
+</head>
+
+<body>
+    <div class="input-div">
+        <input class="search-box" id="search-box" type="text" placeholder="Search your drink">
+        <button id="search-button">Search</button>
+    </div>
+
+    <!-- //parent container -->
+    <div class="row perent-container" >
+        <div class="main-container col-9 " id="main-container">
+
+        </div>
+
+        <div class="cart-container col-3 p-5">
+            <h4>Total cart <span id="count">0</span></h4>
+            <hr>
+            <div class="cart-sin d-flex justify-content-around">
+                <h6><strong>SL</strong></h6>
+                <h6><strong>Img</strong></h6>
+                <h6><strong>Name</strong></h6>
+            </div>
+            
+
+            <div id="cart-element-container" class="cart-element-container">
+                 <hr>
+            </div>
+            
+            
+
+        </div>
+    </div>
+
+
+
+
+    <!-- //for single cart show details -->
+    <div class="modal" id="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal-body">
+                    <!-- js -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- js connect -->
+    <script src="projectA.js"></script>
+    <!-- js cdn for bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
