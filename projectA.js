@@ -135,7 +135,7 @@ const handleAddToCard = (img, name, id) => {
         div.classList.add("d-flex", "justify-content-around")
         div.innerHTML = `
     <h5>${convertedCount}</h5>
-    <img class="crdImg" src="${img}">
+    <img class="crdImg" src="${img}" alt="...">
     <p>${name}</p>
    `;
         cartElementContainer.appendChild(div);
